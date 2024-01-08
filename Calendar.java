@@ -14,8 +14,7 @@ public class Calendar {
      * number of Sundays that occured on the first day of the month during this period.
      */
     public static void main(String args[]) {
-        //int requestedYear = Integer.parseInt(args[0]);
-        int requestedYear = 2020;
+        int requestedYear = Integer.parseInt(args[0]);
         while (year != requestedYear) { //until we reach the requested year
             advance();
         }
