@@ -21,7 +21,7 @@ public class Calendar1 {
         //// of the while loop with the necessary condition
         while (true) {
             if (dayOfMonth == 1 && dayOfWeek == 1) {
-                System.out.printf("%d/%d/%d\n Sunday", dayOfMonth, month, year);
+                System.out.printf("%d/%d/%d Sunday\n", dayOfMonth, month, year);
                 sundayFirstDayOfMonth++;
             } else {
                 System.out.printf("%d/%d/%d\n", dayOfMonth, month, year);
