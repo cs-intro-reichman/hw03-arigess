@@ -37,15 +37,21 @@ public class Calendar {
     private static void advance() {
         if (dayOfWeek == 7) {
             dayOfWeek = 1;
-        } else dayOfWeek++;
+        } else {
+            dayOfWeek++;
+        }
         if (dayOfMonth == nDaysInMonth) { //means we advance a month
             dayOfMonth = 1;
             if (month == 12) { //if that's the end of December
                 month = 1;
                 year++;
-            } else month++;
+            } else {
+                month++;
+            }
             nDaysInMonth = nDaysInMonth(month, year);
-        } else dayOfMonth++;
+        } else {
+            dayOfMonth++;
+        }
 
     }
 
